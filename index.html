@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Admin Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__search">
+            <span
+              class="iconify header__search-icon"
+              data-icon="mdi:search"
+            ></span>
+            <input type="text" class="header__search-input" />
+          </div>
+          <div class="header__user">
+            <div class="header__notifications">
+              <span
+                class="iconify header__notifications-icon"
+                data-icon="mdi:bell-ring-outline"
+              ></span>
+            </div>
+            <div class="header__user-info">
+              <div class="header__user-photo">
+                <img
+                  src="/assets/imgs/cat.png"
+                  alt="user-photo"
+                  class="header__user-img"
+                />
+              </div>
+              <div class="header__username">
+                <h2 class="header__username-text">Morgan Oakley</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="header__profile-info">
+            <div class="header__profile-photo">
+              <img
+                src="/assets/imgs/cat.png"
+                alt="photo-profile"
+                class="header__profile-img"
+              />
+            </div>
+            <div class="header__profile-name">
+              <h3 class="header__profile-greeting">Hi There,</h3>
+              <h2 class="header__profile-username">Morgan Oakley (@morgan)</h2>
+            </div>
+          </div>
+          <div class="header__actions">
+            <div class="header__action">
+              <button class="header__btn">New</button>
+            </div>
+            <div class="header__action">
+              <button class="header__btn">Upload</button>
+            </div>
+            <div class="header__action">
+              <button class="header__btn">Share</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav class="sidebar">
+        <div class="sidebar__logo">
+          <span
+            class="iconify sidebar__logo-icon"
+            data-icon="mdi:view-dashboard"
+          ></span>
+          <h1 class="sidebar__logo-title">Dashboard</h1>
+        </div>
+        <ul class="sidebar__menu">
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:home"
+            ></span>
+            <h2 class="sidebar__menu-title">Home</h2>
+          </li>
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:card-account-details-outline"
+            ></span>
+            <h2 class="sidebar__menu-title">Profile</h2>
+          </li>
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:message"
+            ></span>
+            <h2 class="sidebar__menu-title">Messages</h2>
+          </li>
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:clock-time-three"
+            ></span>
+            <h2 class="sidebar__menu-title">History</h2>
+          </li>
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:note-multiple"
+            ></span>
+            <h2 class="sidebar__menu-title">Tasks</h2>
+          </li>
+          <li class="sidebar__menu-item">
+            <span
+              class="iconify sidebar__menu-icon"
+              data-icon="mdi:account-group"
+            ></span>
+            <h2 class="sidebar__menu-title">Communities</h2>
+          </li>
+        </ul>
+        <ul class="sidebar__settings">
+          <li class="sidebar__settings-item">
+            <span
+              class="iconify sidebar__settings-icon"
+              data-icon="mdi:settings"
+            ></span>
+            <h2 class="sidebar__settings-title">Settings</h2>
+          </li>
+          <li class="sidebar__settings-item">
+            <span
+              class="iconify sidebar__settings-icon"
+              data-icon="mdi:help-box"
+            ></span>
+            <h2 class="sidebar__settings-title">Support</h2>
+          </li>
+          <li class="sidebar__settings-item">
+            <span
+              class="iconify sidebar__settings-icon"
+              data-icon="mdi:shield-check"
+            ></span>
+            <h2 class="sidebar__settings-title">Privacy</h2>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <div class="projects">
+          <h2 class="projects__title">Your Projects</h2>
+          <div class="projects__card-container">
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Super Cool Project</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Nam, hic voluptatum sint enim cum at quam facilis neque
+                    labore vitae deserunt dolor accusantium cumque impedit,
+                    adipisci alias magni illum! Deserunt.
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Less Cool Project</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio, consequatur incidunt voluptates reprehenderit
+                    facere non voluptatum, eveniet ipsam molestias commodi
+                    adipisci eaque inventore eius odio tenetur quaerat fuga quia
+                    excepturi.
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Impossible App</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum itaque reiciendis omnis sit nihil quos, porro ullam,
+                    eos quae nulla culpa earum consectetur tempora cum
+                    laudantium consequuntur error deserunt beatae!
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Easy Peasy App</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum ipsam unde aperiam labore esse maiores non
+                    exercitationem, assumenda eligendi maxime tenetur enim illo
+                    natus consequatur repellendus. Quos aperiam expedita est.
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Ad Blocker</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sapiente perferendis cumque laborum quae omnis, temporibus
+                    iure esse quisquam illo est aspernatur aut cupiditate,
+                    nostrum expedita fugit culpa quaerat saepe iste.
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__card-bg">
+              <div class="projects__card">
+                <div class="proejcts__card-content-wrapper">
+                  <h3 class="projects__card-title">Money Maker</h3>
+                  <p class="projects__card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet doloribus in debitis eos totam voluptatibus
+                    repudiandae fugit, animi deleniti vel labore ad, dolores
+                    iure est omnis? Pariatur optio quod explicabo.
+                  </p>
+                </div>
+                <div class="projects__card-actions">
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:star-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:eye-plus-outline"
+                    ></span>
+                  </div>
+                  <div class="projects__card-action">
+                    <span
+                      class="iconify sidebar__menu-icon"
+                      data-icon="mdi:source-fork"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="announcements-trending">
+          <section class="announcements">
+            <h2 class="announcements__title">Announcements</h2>
+            <div class="announcements__list-container">
+              <div class="announcements__list">
+                <h4 class="announcements__list-title">Site Maintenance</h4>
+                <p class="announcements__list-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ad blanditiis sed dolores delectus harum magni beatae
+                  temporibus dolor dolore maiores asperiores eveniet,
+                  accusantium eligendi repellendus reiciendis rerum. Culpa,
+                  eius?
+                </p>
+              </div>
+              <hr />
+              <div class="announcements__list">
+                <h4 class="announcements__list-title">Site Maintenance</h4>
+                <p class="announcements__list-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ad blanditiis sed dolores delectus harum magni beatae
+                  temporibus dolor dolore maiores asperiores eveniet,
+                  accusantium eligendi repellendus reiciendis rerum. Culpa,
+                  eius?
+                </p>
+              </div>
+              <hr />
+              <div class="announcements__list">
+                <h4 class="announcements__list-title">Site Maintenance</h4>
+                <p class="announcements__list-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis ad blanditiis sed dolores delectus harum magni beatae
+                  temporibus dolor dolore maiores asperiores eveniet,
+                  accusantium eligendi repellendus reiciendis rerum. Culpa,
+                  eius?
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="trending">
+            <h2 class="trending__title">Trending</h2>
+            <div class="trending__list-container">
+              <div class="trending__list">
+                <div class="trending__list-photo tegan">
+                  <img
+                    src="./assets/imgs/dog.png"
+                    alt=""
+                    class="trending__list-img"
+                  />
+                </div>
+                <div class="trending__list-username-project-name">
+                  <p class="trending__list-username">@tegan</p>
+                  <p class="trending__list-project-name">World Peace Builder</p>
+                </div>
+              </div>
+              <div class="trending__list">
+                <div class="trending__list-photo morgan">
+                  <img
+                    src="./assets/imgs/cat.png"
+                    alt=""
+                    class="trending__list-img"
+                  />
+                </div>
+                <div class="trending__list-username-project-name">
+                  <p class="trending__list-username">@morgan</p>
+                  <p class="trending__list-project-name">Super Cool Project</p>
+                </div>
+              </div>
+              <div class="trending__list">
+                <div class="trending__list-photo kendall">
+                  <img
+                    src="./assets/imgs/spiderman.png"
+                    alt=""
+                    class="trending__list-img"
+                  />
+                </div>
+                <div class="trending__list-username-project-name">
+                  <p class="trending__list-username">@kendall</p>
+                  <p class="trending__list-project-name">Life Changing App</p>
+                </div>
+              </div>
+              <div class="trending__list">
+                <div class="trending__list-photo alex">
+                  <img
+                    src="./assets/imgs/pinguin.png"
+                    alt=""
+                    class="trending__list-img"
+                  />
+                </div>
+                <div class="trending__list-username-project-name">
+                  <p class="trending__list-username">@alex</p>
+                  <p class="trending__list-project-name">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
